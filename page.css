@@ -1,0 +1,99 @@
+body {
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    color: #3d3d3d;
+}
+
+body, ul, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------- Header ----------------- */
+
+header {
+    min-height: 250px;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 44px;
+    font-weight: 300;
+}
+
+header p {
+    font-size: 24px;
+}
+
+header small {
+    font-size: 18px;
+}
+
+/* ----------------- Navigation ----------------- */
+
+nav ul {
+    list-style: none;
+    background-color: #1B98E0;
+    width: 100vw;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 15px;
+    min-width: 80px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #28A5ED;
+}
+
+nav ul li a.active {
+    background-color: #35B2FA;
+}
+
+/* ----------------- Section ----------------- */
+
+section {
+    height: 80vh;
+    padding: 0 20px;
+    color: #FFFFFF;
+}
+
+section h1 {
+    padding: 35px 0;
+    font-weight: 300;
+}
+
+/* ----------------- Utils ----------------- */
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#s1 {
+    background-color: #13293D;
+}
+
+#s2 {
+    background-color: #006494;
+}
+
+#s3 {
+    background-color: #247BA0;
+}
+
+#s4 {
+    background-color: #E8F1F2;
+    color: #3d3d3d;
+}
